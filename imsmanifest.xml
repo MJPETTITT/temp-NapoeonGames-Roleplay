@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<manifest identifier="com.scorm.golfsamples.contentpackaging.singlesco.20043rd" version="1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>2004 3rd Edition</schemaversion>
+  </metadata>
+  <organizations default="ORG-001">
+    <organization identifier="ORG-001">
+      <title>Marc Role Play</title>
+      <item identifier="ITEM-001" identifierref="RES-001" isvisible="true">
+        <title>Marc Role Play</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-001" type="webcontent" adlcp:scormType="sco" href="index.html">
+      <file href="index.html" />
+      <dependency identifierref="RES-002" />
+    </resource>
+    <resource identifier="RES-002" type="webcontent" adlcp:scormType="asset">
+      <file href="uploads/backgrounds/6ku342bzy/player.jpg" />
+      <file href="uploads/backgrounds/zgjfp5vo3/player.jpg" />
+      <file href="uploads/backgrounds/dfes8njc4/player.jpg" />
+      <file href="uploads/videos/1rtaj0qz/4115/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4116/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4118/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4119/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4120/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4121/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4122/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4123/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4124/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4125/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4126/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4127/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4128/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4129/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4130/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4131/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4132/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4133/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4134/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4135/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4136/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4137/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4138/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4139/original.mp4" />
+      <file href="uploads/videos/1rtaj0qz/4141/original.mp4" />
+      <file href="assets/export-7ceea8bc36ce21eaa10b8f5042c437d05a38a22034342e06f12f8d617fa99c6a.css" />
+      <file href="assets/favicon-b96bc9307822759bfa152a8f6a30fcf1ff72639474f6afd543150d0c0e7448a9.png" />
+      <file href="assets/player/background-b664589b4edf2255dbe20aaea6ab785ac2cfe7ef9cb6660d8b0865b4f2c6e79b.jpg" />
+      <file href="assets/branchtrack-smiles-c2e4b26d1757b2765605e3f14dd51aed15c98f8b09af98e4daab66f5e8b07bd1.eot" />
+      <file href="assets/branchtrack-smiles-57ba8814fe2fd402334ed950abf15403110c5ab4942a2d2511fa9f065cbec6d9.woff" />
+      <file href="assets/branchtrack-smiles-b102267ef3a7e41ea843b8dc332de83cb8257e24f3f0e2188d1d7879a937a552.ttf" />
+      <file href="assets/opensans-regular-3227967df55a77d837c6f4f25d77b2e01a80e9b6ca1ac28cee38fe4049b5021c.eot" />
+      <file href="assets/opensans-regular-24ba51b684aa3cc79267e0910edc1f5a959ac322b844ca2f2a5c33343429f031.woff" />
+      <file href="assets/opensans-regular-efb00a93bef2916e8cf0afa76226131713a34dc2567350596cf7e75480a43cc4.ttf" />
+      <file href="assets/opensans-light-c1d4e3d1a65fb4521324997b44ed665b4522dd5f8c12a84297f6f28b4c0fc722.eot" />
+      <file href="assets/opensans-light-ec346eb0a7edda0bd434b347531d960ca6d1ef33d501ab10e14d94c2325dad21.woff" />
+      <file href="assets/opensans-light-39d18888390df7a08061b423d75d7c0395ac0095eed4a31a2ca0ba340dfc28ce.ttf" />
+      <file href="assets/opensans-bold-e3e415b4b31b14d2563107ed844756cccf589f9d9511bcd27d944e574326774a.eot" />
+      <file href="assets/opensans-bold-faddde7d5dc3f1675489b5f036283808d90de8fa6eb542f792a8bcb66e62a26b.woff" />
+      <file href="assets/opensans-bold-cd8a2d261d6e6022e2c8456c91d07bbde68621d2c42efb9be86431b5eeec2f0c.ttf" />
+      <file href="assets/font-awesome/fontawesome-webfont-7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979.eot" />
+      <file href="assets/font-awesome/fontawesome-webfont-ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07.woff" />
+      <file href="assets/font-awesome/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2" />
+      <file href="assets/font-awesome/fontawesome-webfont-aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8.ttf" />
+      <file href="assets/player-v1-9456bed5aa406f79a3b7722c0596332b8bf3f74170554028dc04bae0a505aac6.css" />
+      <file href="assets/player/logo-871307630d7bd25426f58afe61505bdf67958b210dda86c16d7477d3fe114633.png" />
+      <file href="dist/export-34b8acf69e09b83c5b88.js" />
+      <file href="dist/export-player-v1-2417f6015a8e3d9ced68.js" />
+      <file href="dist/export-scorm-0746d951aebf51028714.js" />
+    </resource>
+  </resources>
+</manifest>
